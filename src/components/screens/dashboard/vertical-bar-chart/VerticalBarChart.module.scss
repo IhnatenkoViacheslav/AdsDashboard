@@ -1,0 +1,10 @@
+.chart {
+  display: flex;
+  padding: 2rem 1rem;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 60%;
+  justify-content: center;
+}

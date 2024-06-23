@@ -1,0 +1,31 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+
+  .navbar {
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #1e1e1e;
+
+    .icon {
+      margin: 0;
+      color: #fff;
+      transition: all 0.4s ease;
+      &:hover {
+        color: #4225a3;
+      }
+    }
+  }
+
+  .main {
+    width: 92%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
